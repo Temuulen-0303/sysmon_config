@@ -1412,10 +1412,6 @@ Last edited by Gombodorj - 2023-10-10
 			and certain tasked could not be performed or a bug exists in the Sysmon service. You can report any bugs on the
 			Sysinternals forum or over Twitter (@markrussinovich)."-->
 		<!--Cannot be filtered.-->
-	<RuleGroup name="powershell" groupRelation="or">
-		<PowerShell>
-      			<ScriptBlock>on</ScriptBlock>
-    		</PowerShell>
-	</RuleGroup>
+	
 	</EventFiltering>
 </Sysmon>
